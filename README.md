@@ -1,6 +1,115 @@
-# Portafolio-Semestre-2
-Una practica que me pidieron hacer
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de evidencias</title>
+    <link rel="icon" href="https://www.upslp.edu.mx/img/favicon.png" type="image/png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2, h3 {
+            margin: 10px 0;
+        }
+        article {
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        ol {
+            list-style-type: decimal;
+            padding-left: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 5px 0;
+            position: relative;
+            width: 100%;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
 
+<header>
+    <h1>Portafolio de evidencias</h1>
+    <p>Programación web I | Ingeniería en Tecnologías de la Información | Primavera 2025</p>
+</header>
 
+<main>
+    <section>
+        <h2>Universidad Politécnica de San Luis Potosí</h2>
+        <p><strong>Alumno:</strong> Santiago Pacheco Castro</p>
+        <p><strong>Matricula:</strong> 187250</p>
+        <p><strong>Profesora:</strong> MC Imelda Deyanira Hernández Martínez</p>
+    </section>
 
-Si, solo es eso, tal vez se ocupe como una forma de obtener chamba asi bien cabron
+    <section>
+        <h3>Sobre el alumno</h3>
+        <article>
+            <p>Soy Santiago Pacheco, naci el 23 de Diciembre de 2006, y supongo que ya, ocupo lana ;-;      </article>
+    </section>
+
+    <section>
+        <h3>Misión, visión y Objetivo de la materia</h3>
+        <p><strong>Misión de la Carrera:</strong> La misión de la carrera es formar profesionales con conocimientos actualizados en las tecnologías de la información y la comunicación.</p>
+        <p><strong>Visión de la Carrera:</strong> Ser una carrera líder en la formación de expertos en tecnologías de la información, comprometidos con la innovación y el desarrollo tecnológico.</p>
+        <p><strong>Objetivo de la materia:</strong> El objetivo de esta materia es proporcionar a los estudiantes los conocimientos fundamentales de la programación web, desarrollando habilidades técnicas y creativas para el diseño y desarrollo de sitios web interactivos.</p>
+    </section>
+
+    <section>
+        <h3>Consideraciones sobre las sesiones</h3>
+        <ol>
+            <li>Las clases son presenciales y en línea.</li>
+            <li>Los estudiantes deben entregar los trabajos a tiempo.</li>
+            <li>La participación activa es fundamental para el aprendizaje.</li>
+        </ol>
+    </section>
+
+    <section>
+        <h3>Contenido de la materia</h3>
+        <ol>
+            <li>introducción a la programación web</li>
+            <li>html y css</li>
+            <li>javascript básico</li>
+            <li>proyectos de diseño web</li>
+            <li>integración de bases de datos</li>
+        </ol>
+    </section>
+
+    <section>
+        <h3>Prácticas - Portafolio</h3>
+        <ul>
+            <li>Práctica 1: Introducción al HTML.</li>
+            <li>Práctica 2: Diseño de una página web con CSS.</li>
+            <li>Práctica 3: Creación de un formulario interactivo con JavaScript.</li>
+            <li>Práctica 4: Proyecto final - Desarrollo de un sitio web completo.</li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Universidad Politécnica de San Luis Potosí</p>
+</footer>
+
+</body>
+</html>
