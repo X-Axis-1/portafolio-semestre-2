@@ -60,6 +60,7 @@
     <h2> Alumno: Santiago Pacheco Castro - 187250 </h2>
     
     <div class="container">
+        <span class="message" onclick="irASitio()"> Conoce mas sobre nosotros!! </span>
         <img src="honda.png" class="logo" onclick="cargarHonda()" alt="Logo de Honda">
         <iframe id="iframeHonda"></iframe>
 
@@ -78,7 +79,9 @@
         function cargarHonda() {
 
             document.getElementById('iframeHonda').src = 'https://www.honda.mx/';
-
+        }
+         function irASitio() {
+            window.location.href = 'https://www.honda.com/';
         }
     </script>
 
