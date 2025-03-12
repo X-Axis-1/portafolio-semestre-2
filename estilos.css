@@ -1,0 +1,94 @@
+/* Barra lateral */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    position: fixed;
+    height: 100%;
+    background: linear-gradient(135deg, #1E3A8A, #3B82F6); /* Degradado azul */
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    box-shadow: 3px 0 12px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+}
+
+li {
+    margin: 10px 0;
+    display: block;
+}
+
+/* Enlaces de la barra lateral */
+li a {
+    background-color: transparent;
+    color: #ffffff;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: "NTR", sans-serif;
+    font-weight: 600;
+    transition: background-color 0.3s ease, padding-left 0.3s ease;
+}
+
+/* Efecto hover para los enlaces */
+li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding-left: 30px;
+}
+
+/* Enlace activo */
+li .activo {
+    background-color: #4F46E5;
+    border-left: 5px solid #A78BFA; /* Borde iluminado */
+    color: #ffffff;
+}
+
+/* Estilo del contenido */
+section {
+    margin-left: 270px;
+    padding: 30px;
+    background-color: #F3F4F6; /* Fondo claro para contraste */
+    border-radius: 15px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+    font-family: "NTR", sans-serif;
+    line-height: 1.8;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #1E3A8A; /* Azul oscuro para elegancia */
+}
+
+/* Pie de página */
+footer {
+    background-color: #1E293B; /* Azul oscuro elegante */
+    color: #E5E7EB;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.2);
+}
+
+footer h4 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer address {
+    font-style: normal;
+    margin-top: 5px;
+}
