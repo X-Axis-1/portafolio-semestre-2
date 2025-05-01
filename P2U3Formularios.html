@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Registro</title>
+  <link rel="stylesheet" href="P2U3EstilosForm.css">
+</head>
+<body>
+
+  <h2>Formulario de Registro</h2>
+
+  <form id="formRegistro">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" name="edad" required>
+
+    <label for="genero">Género:</label>
+    <select id="genero" name="genero" required>
+      <option value="">Seleccione</option>
+      <option value="Masculino">Masculino</option>
+      <option value="Femenino">Femenino</option>
+      <option value="Otro">Otro</option>
+    </select>
+
+    <button type="submit">Registrar</button>
+  </form>
+
+  <h3>Datos Registrados:</h3>
+  <div id="resultado">No hay datos todavía.</div>
+
+  <script src="P2U3Cerebro.js"></script>
+</body>
+</html>
